@@ -1,0 +1,270 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+.a
+{
+		background-color: #0000009c;
+	  }
+
+.text
+	  {
+	  	text-transform: uppercase;
+    	font-family: prague;
+    	letter-spacing: 3px;
+	  }
+.name
+	  {
+	  	position: absolute;
+   		right: 15%;
+    	left: 15%;
+    	z-index: 10;
+    	color: #fff;
+    	text-align: center;
+    	bottom: 40%;
+    	padding: 0;
+    	border-radius: .5rem;
+	  }
+   		.mobo{
+   			display: none;
+   		}
+   		@media(max-width: 700px)
+   		{
+   			.mobo{
+   				display: block;
+   			}
+   			.web
+   			{
+   				display: none;
+   			}
+   			.a
+   			{
+   				background-color: #fec724;
+   			}
+   			.aa{
+   				max-width: 300px;
+   			}
+   		}
+
+.text-justify
+{
+	line-height: 35px;
+	letter-spacing: 1px;
+	word-spacing: 1px;
+	
+	font-size: 15px;
+
+}
+
+.row
+{
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: -15px;
+    margin-left: -15px;
+
+
+}
+.button
+{
+	color: #fff;
+    padding: 10px 20px;
+    background-color: #fbac29;
+    border: none;
+}
+ .image2{
+	 	background-image: url(../img/bg1.jpg);
+	 	height: 550px;
+	 	width: 100%;
+       margin-top: 50px;
+        
+	 }
+	 .para{
+	 	font-size: 17px;
+        color: white;
+        line-height: 40px;
+        word-spacing: 3px;
+        font-family: Montserrat,sans-serif;
+	 }
+	 @media(max-width: 600px)
+	 {
+	 	.logo2{
+	 		display: block;
+	 		background-color: yellow;
+
+	 	}
+	 	.logo{
+	 		display: none;
+
+	 	}
+	 	.a{
+		background-color:#fec724;
+	       }
+	    .img{
+	    	font-size:50px; 
+	    }   
+	 }
+.image3
+{
+	background-image: url(../img/bg2.png);
+	width: 100%;
+	background-size: cover;
+	height: 485px;
+}
+.border-box{
+    border-style: solid;
+    border-width: thin;
+    border-color: #fbab29;
+}
+.mainfooter
+{
+	background: #020306f0;
+	padding: 50px;
+	color:#fff;
+}
+.endfoot
+{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: justify;
+	color:white;
+	margin-top:0px;
+	margin-bottom: 0rem;
+}
+
+.img-title
+{
+	position: absolute;
+    color: #fff;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 45%;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+
+.ml-1
+{
+	padding-top: 20px;
+    text-transform: uppercase;
+    font-family: prague;
+    letter-spacing: 3px;
+}
+
+.text-center{
+	text-align: center!important;
+	margin-top: -48px;
+
+}
+.mt-20
+{
+	margin-top: 102px;
+	font-family: prague;
+    color: #fff;
+    font-size: 60px;
+}
+.why
+{
+	background-image: url(../img/bg3.jpg);
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.ml-1
+{
+	padding-top: 20px;
+    text-transform: uppercase;
+    font-family: prague;
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+.img
+{
+	box-shadow: 0 10px 16px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19)!important;
+}
+
+.priyank-content
+{
+	font-size: 15px;
+    line-height: 35px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+.family-content
+{
+	letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 35px;
+}
+.aboutimage
+{
+	width: 100%;
+    box-shadow: 0 0 0 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
+    margin-top: 55px;
+}
+.box
+{
+	position: relative;
+
+}
+.row
+{
+	padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+.box16
+{
+	text-align: center;
+    color: #fff;
+    position: relative;
+    margin-top: 20px;
+   
+}
+.online-mention
+{
+	box-shadow: 0 10px 16px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19)!important;
+    padding: 50px;
+    margin: -60px 100px 80px;
+}
+.scrollable
+{
+	height: 425px;
+    overflow-y: scroll;
+}
+/*.scrollable
+{
+	border-radius: 10px;
+    background: #fba929;
+}*/
+
+.carousel-caption{
+    color: #fff;
+    position: absolute;
+    top: 35%;
+    left: 250px;
+  }
+    b{
+    font-size:81px;
+    font-family: prague;
+   
+    font-weight:400;
+    border-bottom-color: #82c434;
+  }
+  .contact
+  {
+  	padding-right: 70px;
+    padding-left: 70px;
+  }
+  .form-control
+  {
+  	border-color: #dc3545;
+    padding-right: calc(1.5em + .75rem);
+    background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23dc3545' viewBox='-2 -2 7 7'%3e%3cpath stroke='%23dc3545' d='M0 0l3 3m0-3L0 3'/%3e%3ccircle r='.5'/%3e%3ccircle cx='3' r='.5'/%3e%3ccircle cy='3' r='.5'/%3e%3ccircle cx='3' cy='3' r='.5'/%3e%3c/svg%3E);
+    background-repeat: no-repeat;
+    background-position: center right calc(.375em + .1875rem);
+    background-size: calc(.75em + .375rem) calc(.75em + .375rem);
+  }
